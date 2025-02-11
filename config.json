@@ -1,0 +1,38 @@
+{
+  "api_id": "TELEGRAM_BOT_ID",
+  "discord_token": "DISCORD_TOKEN",
+  "bypass_api_key": "READ-THE-README",
+  "telegram_channel": "TELEGRAM_CHANNEL_LINK",
+  "success_emoji": "<:success:1208885438010359869>",
+  "error_emoji": "<:error:1208885864424407141>",
+  "api_hash": "a92f557a647efbf81ecb464c218278bb",
+  "production_webhook": "DISCORD_WEBHOOK",
+  "imgDumpWebhook": "READ-THE-README",
+  "discordHeaders": {
+    "Content-Type": "application/json"
+  },
+  "clientKey": "CAPSOLVER-API-KEY",
+  "authTokenHeaders": {
+   "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://publisher.ad-maven.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "auth_payload": {
+    "captcha_token": "CAPTCHA",
+    "password": "ADMAVEN_PASSWORD_LOGIN",
+    "username": "ADMAVEN_EMAIL_LOGIN"
+  },
+  "reload": "RELOAD_TOKEN_FROM_RECAPTCHA_REQUEST",
+  "fetch": "FETCH_TOKEN_FROM_RECAPTCHA_REQUEST"
+}
