@@ -221,7 +221,7 @@ class TelegramBot:
                         'Content-Type': 'application/json',
                         'X-API-KEY': self.config['bypass_api_key']
                     },
-                    timeout=10
+                    timeout=60
                 )
                 # Raise exception if request times out
                 response.raise_for_status()
@@ -316,7 +316,7 @@ class TelegramBot:
                     "Content-Type": "application/json"
                 },
                 json={"url": link},
-                timeout=10
+                timeout=60
             )
             # Raise exception if request times out
             response.raise_for_status()
